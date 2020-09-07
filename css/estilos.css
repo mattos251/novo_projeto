@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(32, 31, 31);
+    text-align: center;
+}
+
+h1{
+    background-color: aqua;
+    display: inline-block;
+    
+}
