@@ -10,7 +10,7 @@
     <header>
         <div id="navegacao">
             <div id="area">
-                <a href="index.html"><h1 id="logo"><span class="branco">LF</span>-Salgados</h1></a>
+                <a href="index.htm"><h1 id="logo"><span class="branco">LF</span>-Salgados</h1></a>
                 <div id="menu">
                     <a href="#">home</a>
                     <a href="#">Salgados</a>
@@ -20,25 +20,28 @@
             </div>
         </div >
     </header>
-            
-    <section>
-        <div>
-            <label for="username">E-mail:</label>
-            <input type="email" name="username" id="username">
-        </div>
-
-        <div>
-            <label for="pass">Senha:</label>
-            <input type="password" name="pass" id="pass">
-        </div>
-
-        <div><a href="#">Esqueci minha Senha</a></div>
-        
-        <input type="submit" value="Fazer login">
-    </section>
     <section>
         <h2>Ainda não tem conta?</h2>
         <h2>Clique em criar conta para cadastrar-se em nossa plataforma</h2>
     </section>
+            
+    <form class="grid-main">
+        <div class="grid-container">
+            <div>
+                <label for="username">E-mail:</label>
+                <input type="email" name="username" id="username" required>
+            </div>
+
+            <div>
+                <label for="pass">Senha:</label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+
+            <div><a href="#">Esqueci minha Senha</a></div>
+            
+            <input class="submit" type="submit" value="Fazer login">
+        </div>
+    </form>
+
 </body>
 </html>
