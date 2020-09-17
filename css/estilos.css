@@ -10,13 +10,22 @@ body {
 }
 
 a{
+    text-decoration: none;
+    color: black;
+}
+
+a .branco{
     color:white;
     padding: 10px;
 }
 
 /** barra de navegção **/
+header{
+    margin-bottom: 100px;
+}
 
 #navegacao {
+    color: blanchedalmond;
     background: #f04d30;
     height: 50px;
     position: fixed;
@@ -30,7 +39,8 @@ a{
 }
 
 #logo{
-    float: left ;
+    float: left;
+    
 }
 
 .branco{
@@ -45,7 +55,15 @@ a{
 
 /** area principal **/
 
-.img-market{
+.imagem-principal{
+    text-align: center;
+}
+
+.imagem-principal figure img{
+    text-align: center;
+}
+
+/*.img-market{
     margin: 45px;
     padding: 5px 0px 0px 10px;
     position: relative;
@@ -53,7 +71,7 @@ a{
     width: 1000px;
     height: 400px;
 }
-
+*/
 
 
 
