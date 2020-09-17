@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f79d65;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a .branco{
+    color:white;
+    padding: 10px;
+}
+
+/** barra de navegção **/
+header{
+    margin-bottom: 100px;
+}
+
+#navegacao {
+    color: blanchedalmond;
+    background: #f04d30;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;
+}
+
+#logo{
+    float: left;
+    
+}
+
+.branco{
+    color: white;
+}
+
+#menu{
+   float: right; 
+   padding:10px 0px;
+   margin: 0px;
+}
