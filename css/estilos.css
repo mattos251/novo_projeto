@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+main{
+    margin: 20px;
+}
+
 body {
     font-size: 16px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -47,6 +51,7 @@ a .branco{
 #logo{
     float: left;
     margin-top: 10px;
+    font-size: medium;
     
 }
 
@@ -64,8 +69,9 @@ a .branco{
 
 .area-principal{
     width: 830px;
-    height: 800px;
+    height: 1200px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .imagem-principal{
@@ -103,7 +109,7 @@ a .branco{
 }
 
 .postagem{
-    padding-top: 20px;
+    padding-top: 50px;
     margin: 0 auto;
 }
 
@@ -112,10 +118,11 @@ a .branco{
 /** footer **/
 
 footer{
-    border: 1px solid #f04d30;
     width: 100%;
     height: 100px;
     background: #f04d30;
+    bottom: 0;
+
 }
 
 /** classes **/
