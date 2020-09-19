@@ -41,7 +41,10 @@ header{
 
 #logo{
     float: left;
-    
+}
+
+section .logo-body{
+    text-align: center;
 }
 
 .branco{
