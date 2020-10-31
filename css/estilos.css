@@ -4,30 +4,62 @@
     
 }
 
-main{
-    margin: 20px;
-}
 
 body {
     font-size: 16px;
     font-family: 'Architects Daughter', cursive;
-    background: #f0dac0;
+    background: #ddd5cc;
 }
 
+.barra-sup{
+    max-width: 100%;
+    background: rgb(255, 255, 255);
+    
+    width: 100%;
+    height: 3.5rem;
 
+}
+
+.barra-sup-itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.barra-sup img{
+    max-width: 100%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 0.5rem;
+
+}
+
+header{
+    background-color: wheat;
+    margin: 0;
+    padding: 6.5rem;
+}
 
 /** barra de navegção **/
 #logo h1{
     text-decoration: none;
-    color: black;
+    color: #DD2803;
+    font-size: xx-large;
 }
 
-#menu a{
+a{
     text-decoration: none;
-    color: white;
+}
+
+#menu a, 
+.login{
+    color: rgb(0, 0, 0);
     padding: 5px;
     border-radius: 10px;
-    font-size: large;
+    font-size: 25px;
+    
 }
 
 a .branco{
@@ -37,12 +69,13 @@ a .branco{
 
 
 #navegacao {
-    height: 50px;
-    margin: 05vh 10vh;
-    border-radius: 10vh;
-    color: blanchedalmond;
-    background: #f04d30;
-    width: 90%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6.5rem;
+ 
+    background: #ffffff;
+    
     top: 0;
     box-shadow: 1px 0px 23px 7 px #5c5f30;
 }
@@ -58,11 +91,10 @@ a .branco{
     float: left;
     margin-top: 10px;
     font-size: medium;
-    
 }
 
-.branco{
-    color: white;
+.preto{
+    color: rgb(0, 0, 0);
 }
 
 #menu{
